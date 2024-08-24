@@ -1,0 +1,29 @@
+main {
+  padding: 0 5%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+
+.themChangeContainer p {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.themChangeContainer p svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.header h2 {
+  font-size: 1.5rem;
+}
